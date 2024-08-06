@@ -1,0 +1,26 @@
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1
+{
+    background-color:aqua;
+    font-size: 40px;
+}
+
+li
+{
+    background-color:darkgrey;
+}
+a
+{
+    background-color: black;
+    color: aliceblue;
+    font-size: 26px;
+}
+img
+{
+    width: 250px;
+}
