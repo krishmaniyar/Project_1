@@ -4,21 +4,24 @@ body
     text-align: center;
 }
 
-.para
+p
 {
-    font-size: 26px;
-    background-color: bisque;
+    font-size: 22px;
 }
 
-.bol
+.inc
 {
-    font-style: italic;
-    font-weight: 600;
-    background-color: chocolate;
-    color: aliceblue;
+    border: 3px solid black;
+    width: 200px;
+    margin-left: 680px;
 }
 
-h1,h2
+.he
 {
-    background-color: cyan;
+    margin-left: 700px;
+    background-color:blanchedalmond;
+    width: 150px;
+    text-align: center;
+    border: 3px solid brown;
+    padding: 0px;
 }
