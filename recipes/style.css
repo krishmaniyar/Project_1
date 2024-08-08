@@ -1,27 +1,44 @@
 body 
 {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    text-align: left;
 }
 
-p
+.split 
 {
-    font-size: 22px;
+    height: 100%;
+    width: 50%;
+    position:fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    margin: 0%;
 }
 
-.inc
+.left 
 {
-    border: 3px solid black;
-    width: 200px;
-    margin-left: 680px;
+    width: 40%;
+    left: 0;
+    background-color: bisque;
+    text-align: left;
 }
 
-.he
+.right
 {
-    margin-left: 700px;
-    background-color:blanchedalmond;
-    width: 150px;
-    text-align: center;
-    border: 3px solid brown;
-    padding: 0px;
+    width: 60%;
+    right: 0;
+}
+
+.centered 
+{
+    position: absolute;
+    top:40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+h1
+{
+    font-style: italic; 
+    font-family: fantasy;
 }
