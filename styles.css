@@ -2,24 +2,28 @@ body
 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    margin: 0%;
 }
 
 .flex-container 
 {
     display: flex;
     flex-direction: row;
+    gap: 10px;
+    height: 670px;
+    margin: 10px;
+    align-items:stretch;
 }
 
 .flex-container div
 {
     flex:1 1 0;
-    margin-top: 0%;
-    margin: .4%;
+    justify-content:space-evenly;
 }
 
 img
 {
-    height:130%;
+    height:550px;
     width: 100%;
     object-fit: fill;
 }
