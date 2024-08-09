@@ -17,7 +17,6 @@ body
 .flex-container div
 {
     justify-content:space-evenly;
-    flex-basis: 200px;
 }
 
 .right
