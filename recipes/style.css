@@ -11,11 +11,13 @@ body
     flex-direction: row;
     height: 100%;
     align-items:stretch;
+    flex-wrap: wrap;
 }
 
 .flex-container div
 {
     justify-content:space-evenly;
+    flex-basis: 200px;
 }
 
 .right
